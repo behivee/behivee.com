@@ -2,13 +2,13 @@ import '@css/loader.css';
 
 import { forwardRef } from 'react';
 
-export const DogSpinner = () => (
+export const Spinner = () => (
     <div className="spinner__container">
         <span class="loader"></span>
     </div>
 );
 
-export const DogContainer = forwardRef(({ children }, ref) => (
+export const SpinnerContainer = forwardRef(({ children }, ref) => (
     <div ref={ref} className="voxel-dog">
         {children}
     </div>
@@ -16,9 +16,9 @@ export const DogContainer = forwardRef(({ children }, ref) => (
 
 const Loader = () => {
     return (
-        <DogContainer>
-            <DogSpinner />
-        </DogContainer>
+        <SpinnerContainer>
+            <Spinner />
+        </SpinnerContainer>
     );
 };
 

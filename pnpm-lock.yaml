@@ -32,6 +32,7 @@ specifiers:
   three: ^0.148.0
   typescript: ^4.6.4
   vite: ^3.0.7
+  zustand: ^4.3.2
 
 dependencies:
   '@types/node': 18.11.18
@@ -47,6 +48,7 @@ dependencies:
   swiper: 8.4.6
   swr: 2.0.0_react@18.2.0
   three: 0.148.0
+  zustand: 4.3.2_react@18.2.0
 
 devDependencies:
   '@types/react': 18.0.26
@@ -3133,3 +3135,19 @@ packages:
     resolution: {integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==}
     engines: {node: '>=10'}
     dev: true
+
+  /zustand/4.3.2_react@18.2.0:
+    resolution: {integrity: sha512-rd4haDmlwMTVWVqwvgy00ny8rtti/klRoZjFbL/MAcDnmD5qSw/RZc+Vddstdv90M5Lv6RPgWvm1Hivyn0QgJw==}
+    engines: {node: '>=12.7.0'}
+    peerDependencies:
+      immer: '>=9.0'
+      react: '>=16.8'
+    peerDependenciesMeta:
+      immer:
+        optional: true
+      react:
+        optional: true
+    dependencies:
+      react: 18.2.0
+      use-sync-external-store: 1.2.0_react@18.2.0
+    dev: false

@@ -1,9 +1,9 @@
 import { Navigate, useRoutes } from 'react-router-dom';
 
-import Home from '@/Pages/Home';
+import Home from "@/Pages/Home";
 
 export default () => {
-    return useRoutes([
+    return useRoutes( [
         {
             path: '/',
             element: <Home />,
@@ -16,5 +16,5 @@ export default () => {
             path: '*',
             element: <Navigate to="404" />,
         },
-    ]);
+    ] );
 };

@@ -3,28 +3,23 @@
     "type": "module",
     "scripts": {
         "dev": "vite",
-        "build": "tsc && vite build",
+        "build": "vite build",
+        "lint": "tsc",
         "preview": "vite preview"
     },
     "dependencies": {
-        "@types/node": "^18.11.18",
         "axios": "^1.2.2",
-        "framer-motion": "^8.4.7",
-        "jotai": "^1.13.1",
         "react": "^18.2.0",
         "react-dom": "^18.2.0",
-        "react-icons": "^4.7.1",
-        "react-is": "^18.2.0",
         "react-router-dom": "^6.3.0",
         "styled-components": "^5.3.6",
-        "swiper": "^8.4.6",
         "swr": "^2.0.0",
-        "three": "^0.148.0"
+        "zustand": "^4.3.2"
     },
     "devDependencies": {
         "@types/react": "^18.0.17",
+        "@types/node": "^18.11.18",
         "@types/react-dom": "^18.0.6",
-        "@types/three": "^0.148.0",
         "@typescript-eslint/eslint-plugin": "^5.36.1",
         "@typescript-eslint/parser": "^5.36.1",
         "@vitejs/plugin-react": "^2.0.1",
