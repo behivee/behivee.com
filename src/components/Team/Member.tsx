@@ -1,6 +1,8 @@
-import { Box, Flex, Img, Text, useColorModeValue } from '@chakra-ui/react'
 import * as React from 'react'
+
+import { Box, Flex, Img, Text, useColorModeValue } from '@chakra-ui/react'
 import { FaLinkedinIn, FaTwitter } from 'react-icons/fa'
+
 import { SocialLink } from './SocialLink'
 
 interface Props {
@@ -12,13 +14,13 @@ interface Props {
   children: React.ReactNode
 }
 
-export const Member = (props: Props) => {
+export const Member = ( props: Props ) => {
   const { image, role, name, twitter, linkedIn, children } = props
   return (
     <Flex
       direction="column"
-      bg={useColorModeValue('white', 'gray.700')}
-      shadow={useColorModeValue('base', 'none')}
+      bg={useColorModeValue( 'white', 'gray.700' )}
+      shadow={useColorModeValue( 'base', 'none' )}
     >
       <Box p="6" flex="1">
         <Img
@@ -34,7 +36,7 @@ export const Member = (props: Props) => {
         <Box mt="2">
           <Text fontWeight="bold">{name}</Text>
           <Text
-            color={useColorModeValue('gray.500', 'whiteAlpha.700')}
+            color={useColorModeValue( 'gray.500', 'whiteAlpha.700' )}
             fontWeight="medium"
             fontSize="sm"
           >
@@ -42,14 +44,14 @@ export const Member = (props: Props) => {
           </Text>
         </Box>
         <Text
-          color={useColorModeValue('gray.600', 'whiteAlpha.800')}
+          color={useColorModeValue( 'gray.600', 'whiteAlpha.800' )}
           maxW={{ base: 'unset', md: '20rem' }}
           mt="6"
         >
           {children}
         </Text>
       </Box>
-      <Flex align="center" spacing="5" borderTopWidth="1px">
+      <Flex align="center" borderTopWidth="1px">
         <SocialLink icon={FaTwitter} href={twitter} borderEndWidth="1px">
           Twitter
         </SocialLink>
