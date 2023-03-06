@@ -1,12 +1,18 @@
 import { Navigate, useRoutes } from 'react-router-dom';
+import { Suspense, lazy } from 'react';
 
-import Home from "@/Pages/Home";
+const Loadable = ( Component: any ) => ( props: any ) => (
+    <Suspense fallback={<div>Loading...</div>}>
+        <Component {...props} />
+    </Suspense>
+);
+const Home = Loadable( lazy( () => import( './pages/Home' ) ) );
 
 export default () => {
     return useRoutes( [
         {
             path: '/',
-            element: <Home />,
+            element: <Home />
         },
         {
             path: '404',

@@ -1,9 +1,24 @@
+import { StatsWithLines, StatsWithRightIcon } from "@components/Stats";
 
-const Home = () => {
+import { Blog } from "@components/Blog";
+import { Footer } from "@components/Footer";
+import Hero from "@components/Hero";
+import { Tabs } from "@components/TabsWithIcon";
+import { Team } from "@components/Team";
+import { TwoByTwoGrid } from "@components/TwoByTwoGrid";
+
+export default () => {
     return (
-        <p>
-            HOME PAGE
-        </p>
+        <>
+            <Hero />
+            <StatsWithRightIcon />
+            <StatsWithLines />
+            <Blog />
+            <Tabs />
+            <TwoByTwoGrid />
+            <Team />
+            <Footer />
+        </>
     );
 };
-export default Home;
+
