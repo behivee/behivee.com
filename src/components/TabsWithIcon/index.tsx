@@ -39,7 +39,7 @@ export const Tabs = () => {
                 objectFit="cover"
                 w="full"
                 h="full"
-                src="https://images.unsplash.com/photo-1609921205586-7e8a57516512?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTl8fGRlc2lnbmVyfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+                src="https://ewhtpqjgz6y.exactdn.com/wp-content/uploads/2019/08/product-manager-image.png?strip=all&lossy=1&ssl=1"
                 alt="Holding phone with app installed"
               />
             </Center>

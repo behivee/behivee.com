@@ -60,8 +60,8 @@ export const Team = () => (
               image={member.image}
               role={member.role}
               name={member.name}
-              twitter="#"
-              linkedIn="#"
+              twitter={member.twitter}
+              linkedIn={member.linkedin}
             >
               {member.description}
             </Member>

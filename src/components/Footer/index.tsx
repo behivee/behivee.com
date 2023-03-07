@@ -1,5 +1,3 @@
-import * as React from 'react'
-
 import {
   Box,
   Flex,
@@ -11,7 +9,6 @@ import {
 } from '@chakra-ui/react'
 import { links, socialLinks } from './_data'
 
-import { FaHeart } from 'react-icons/fa'
 import { LinkGroup } from './LinkGroup'
 import { Logo } from './Logo'
 import { SocialLink } from './SocialLink'
@@ -89,25 +86,8 @@ export const Footer = () => (
             ) )}
           </HStack>
         </Stack>
-        <Box>
-          <Text>&copy; {new Date().getFullYear()} Envelope Inc</Text>
-          <Text mt="2">
-            Made with <Heart /> by Chakra Inc.
-          </Text>
-        </Box>
       </Flex>
     </Box>
   </Box>
 )
 
-const Heart = () => (
-  <Box
-    display="inline-block"
-    mx="1"
-    color={mode( 'blue.500', 'blue.300' )}
-    fontSize="xs"
-    role="img"
-    aria-label="Love"
-    as={FaHeart}
-  />
-)

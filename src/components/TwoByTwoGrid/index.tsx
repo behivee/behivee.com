@@ -1,5 +1,3 @@
-import * as React from 'react'
-
 import {
   Box,
   BoxProps,
@@ -20,7 +18,7 @@ const FeatureImage = ( props: BoxProps ) => (
       objectFit="cover"
       h="100%"
       w="100%"
-      src="https://images.unsplash.com/photo-1573878737226-4f9572c22b69?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2550&q=80"
+      src="https://ewhtpqjgz6y.exactdn.com/wp-content/uploads/2019/08/product-manager-image.png?strip=all&lossy=1&ssl=1"
       alt=""
     />
   </Box>

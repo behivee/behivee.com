@@ -16,10 +16,9 @@ export type Link = {
 }
 
 export const links: Link[] = [
-  { label: 'For Designers', href: '#' },
-  { label: 'For Teams', href: '#' },
+  { label: 'Estimator', href: '#' },
   {
-    label: 'Resources',
+    label: 'Services',
     children: [
       {
         label: 'Get Help',
@@ -47,5 +46,61 @@ export const links: Link[] = [
       },
     ],
   },
-  { label: 'Pricing', href: '#' },
+  {
+    label: 'Industries',
+    children: [
+      {
+        label: 'Get Help',
+        description: 'Read our documentation and FAQs, or get in touch.',
+        href: '#',
+        icon: <IoHelpBuoy />,
+      },
+      {
+        label: 'Events & Meetups',
+        description: 'Discover and join your local Sketch community.',
+        href: '#',
+        icon: <IoCalendar />,
+      },
+      {
+        label: 'Extensions',
+        description: 'Do even more with Assistants, plugins and integrations.',
+        href: '#',
+        icon: <IoGrid />,
+      },
+      {
+        label: 'Blog',
+        description: 'Get updates, articles and insights from the team.',
+        href: '#',
+        icon: <MdWeb />,
+      },
+    ],
+  },
+  {
+    label: 'Clients',
+    children: [
+      {
+        label: 'Events & Meetups',
+        description: 'Discover and join your local Sketch community.',
+        href: '#',
+        icon: <IoCalendar />,
+      },
+      {
+        label: 'Extensions',
+        description: 'Do even more with Assistants, plugins and integrations.',
+        href: '#',
+        icon: <IoGrid />,
+      },
+      {
+        label: 'Blog',
+        description: 'Get updates, articles and insights from the team.',
+        href: '#',
+        icon: <MdWeb />,
+      },
+    ],
+  },
+  {
+    label: 'Blog',
+    href: '#',
+  },
+  { label: 'About', href: '#' },
 ]
