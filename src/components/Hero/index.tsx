@@ -24,7 +24,7 @@ export const Hero = () => {
       <Box maxW="7xl" mx="auto">
         <Box
           maxW={{ lg: 'md', xl: 'xl' }}
-          pt={{ base: '20', lg: '40' }}
+          pt={{ base: '2', lg: '4' }}
           pb={{ base: '16', lg: '24' }}
         >
           <HStack
