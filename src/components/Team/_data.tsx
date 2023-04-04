@@ -11,7 +11,7 @@ export const members: Member[] = [
     {
         role: 'Founder / CEO',
         image: 'https://media.licdn.com/dms/image/D4D03AQGYgcEqd8yuZg/profile-displayphoto-shrink_400_400/0/1679858037380?e=1686182400&v=beta&t=9WJLA131jXuJS2sHMHndHr4JaJqROYgYC3EEIEvlhN0',
-        name: 'Ian Balijawa',
+        name: 'Ian ',
         twitter: 'https://twitter.com/ianbalijawa',
         linkedin: 'https://www.linkedin.com/in/ian-balijawa-10369a181/',
         description:
@@ -20,7 +20,7 @@ export const members: Member[] = [
     {
         role: 'CTO',
         image: 'https://media.licdn.com/dms/image/D4D03AQGYgcEqd8yuZg/profile-displayphoto-shrink_400_400/0/1679858037380?e=1686182400&v=beta&t=9WJLA131jXuJS2sHMHndHr4JaJqROYgYC3EEIEvlhN0',
-        name: 'Ian Balijawa',
+        name: 'Ian ',
         twitter: 'https://twitter.com/ianbalijawa',
         linkedin: 'https://www.linkedin.com/in/ian-balijawa-10369a181/',
         description:
@@ -29,7 +29,7 @@ export const members: Member[] = [
     {
         role: 'Network Engineer',
         image: 'https://media.licdn.com/dms/image/D4E03AQFn5aEwGgep6Q/profile-displayphoto-shrink_100_100/0/1678814675576?e=1686182400&v=beta&t=HYuYtF1s8NLEu4ConRyILYLgBRe-DSePbl_tcdpQerI',
-        name: 'Alan Balijawa',
+        name: 'Alan ',
         twitter: 'https://twitter.com/ianbalijawa',
         linkedin: 'https://www.linkedin.com/in/balijawa-alan-786839b4/',
         description:
@@ -38,7 +38,7 @@ export const members: Member[] = [
     {
         role: 'Marketing Manager',
         image: 'https://media.licdn.com/dms/image/D4D03AQHCnTeD2rD0kg/profile-displayphoto-shrink_200_200/0/1676709423013?e=1683763200&v=beta&t=UnoM-K5bK89MIxzc3qcS9e0w08T_0_q8t9ioLG86J8A',
-        name: 'Allen Balijawa',
+        name: 'Allen ',
         twitter: 'https://twitter.com/ianbalijawa',
         linkedin: 'https://www.linkedin.com/in/allen-balijawa-71abb1266/',
         description:
@@ -47,7 +47,7 @@ export const members: Member[] = [
     {
         role: 'Manager, Business Relations',
         image: 'https://media.licdn.com/dms/image/D4D03AQGYgcEqd8yuZg/profile-displayphoto-shrink_400_400/0/1679858037380?e=1686182400&v=beta&t=9WJLA131jXuJS2sHMHndHr4JaJqROYgYC3EEIEvlhN0',
-        name: 'Ian Balijawa',
+        name: 'Ian ',
         twitter: 'https://twitter.com/ianbalijawa',
         linkedin: 'https://www.linkedin.com/in/ian-balijawa-10369a181/',
         description:
@@ -56,7 +56,7 @@ export const members: Member[] = [
     {
         role: 'Chief Operating Officer',
         image: 'https://media.licdn.com/dms/image/D4D03AQGYgcEqd8yuZg/profile-displayphoto-shrink_400_400/0/1679858037380?e=1686182400&v=beta&t=9WJLA131jXuJS2sHMHndHr4JaJqROYgYC3EEIEvlhN0',
-        name: 'Ian Balijawa',
+        name: 'Ian ',
         twitter: 'https://twitter.com/ianbalijawa',
         linkedin: 'https://www.linkedin.com/in/ian-balijawa-10369a181/',
         description:
@@ -65,7 +65,7 @@ export const members: Member[] = [
     {
         role: 'Head of Human Resources',
         image: 'https://media.licdn.com/dms/image/D4D03AQGYgcEqd8yuZg/profile-displayphoto-shrink_400_400/0/1679858037380?e=1686182400&v=beta&t=9WJLA131jXuJS2sHMHndHr4JaJqROYgYC3EEIEvlhN0',
-        name: 'Ian Balijawa',
+        name: 'Ian ',
         twitter: 'https://twitter.com/ianbalijawa',
         linkedin: 'https://www.linkedin.com/in/ian-balijawa-10369a181/',
         description:
