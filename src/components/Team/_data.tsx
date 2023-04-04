@@ -28,8 +28,7 @@ export const members: Member[] = [
     },
     {
         role: 'Network Engineer',
-        // image: '..//src/assets/images/alan.png',
-        image: '/alan.png',
+        image: 'https://media.licdn.com/dms/image/D4E03AQFn5aEwGgep6Q/profile-displayphoto-shrink_100_100/0/1678814675576?e=1686182400&v=beta&t=HYuYtF1s8NLEu4ConRyILYLgBRe-DSePbl_tcdpQerI',
         name: 'Alan Balijawa',
         twitter: 'https://twitter.com/ianbalijawa',
         linkedin: 'https://www.linkedin.com/in/balijawa-alan-786839b4/',
