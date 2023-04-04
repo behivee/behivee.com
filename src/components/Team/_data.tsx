@@ -28,7 +28,8 @@ export const members: Member[] = [
     },
     {
         role: 'Network Engineer',
-        image: 'src/assets/images/alan.png',
+        // image: '..//src/assets/images/alan.png',
+        image: '/alan.png',
         name: 'Alan Balijawa',
         twitter: 'https://twitter.com/ianbalijawa',
         linkedin: 'https://www.linkedin.com/in/balijawa-alan-786839b4/',

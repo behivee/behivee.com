@@ -3,18 +3,33 @@ import { Suspense, lazy } from 'react';
 
 import { Spinner } from '@chakra-ui/react';
 
-const Loadable = ( Component: any ) => ( props: any ) => (
-    <Suspense fallback={<div style={{ width: "100%", margin: "20rem auto", display: "flex", justifyContent: "center", alignContent: "center" }}><Spinner size="xl" /></div>}>
-        <Component {...props} />
-    </Suspense>
-);
-const Home = Loadable( lazy( () => import( './Pages/Home' ) ) );
+const Loadable = (Component: any) => (props: any) =>
+    (
+        <Suspense
+            fallback={
+                <div
+                    style={{
+                        width: '100%',
+                        margin: '20rem auto',
+                        display: 'flex',
+                        justifyContent: 'center',
+                        alignContent: 'center',
+                    }}
+                >
+                    <Spinner size="xs" />
+                </div>
+            }
+        >
+            <Component {...props} />
+        </Suspense>
+    );
+const Home = Loadable(lazy(() => import('./Pages/Home')));
 
 export default () => {
-    return useRoutes( [
+    return useRoutes([
         {
             path: '/',
-            element: <Home />
+            element: <Home />,
         },
         {
             path: '404',
@@ -24,5 +39,5 @@ export default () => {
             path: '*',
             element: <Navigate to="404" />,
         },
-    ] );
+    ]);
 };
