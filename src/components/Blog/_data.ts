@@ -5,7 +5,7 @@ export const data: BlogData[] = [
         image: 'https://cc-west-blog-assets.s3.amazonaws.com/uploads/2021/06/customer-satisfaction-tips-better-content-for-business-sucess-blog-1.png',
         title: 'Secret to customer satisfaction',
         description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt fugiat nulla pariatur.',
+            'Unlock the secret to exceptional customer satisfaction and learn how to build strong customer relationships that drive loyalty and revenue.',
         type: 'article',
         tags: ['community', 'research'],
         author: {
@@ -16,9 +16,9 @@ export const data: BlogData[] = [
     },
     {
         image: 'https://cc-west-blog-assets.s3.amazonaws.com/uploads/2021/06/customer-satisfaction-tips-better-content-for-business-sucess-blog-1.png',
-        title: 'Secret to customer satisfaction',
+        title: '5 Strategies for Effective Time Management',
         description:
-            'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur fugiat nulla pariatur.',
+            'Discover practical tips and strategies for managing your time more effectively, so you can get more done in less time and achieve your goals.',
         type: 'video',
         tags: ['firebase'],
         author: {
@@ -29,9 +29,9 @@ export const data: BlogData[] = [
     },
     {
         image: 'https://cc-west-blog-assets.s3.amazonaws.com/uploads/2021/06/customer-satisfaction-tips-better-content-for-business-sucess-blog-1.png',
-        title: 'Secret to customer satisfaction',
+        title: "The Benefits of Remote Work: Why It's Here to Stay",
         description:
-            'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+            "Explore the many benefits of remote work, including increased productivity, reduced costs, and better work-life balance, and learn why it's becoming the new normal for many organizations.",
         type: 'webinar',
         tags: ['animations', 'ionic'],
         author: {
